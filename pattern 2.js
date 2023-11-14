@@ -1,4 +1,9 @@
-/* Create a function that displays a pattern */
+/* Create a function that displays a pattern like this:
+1 1 1 1 
+1 1 1
+1 1 
+1
+ */
 
     function triangle(rows,column){
     
