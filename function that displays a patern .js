@@ -1,3 +1,9 @@
+/* Create a function that displays a patern like this:
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *      */ 
+
 function Pattern(i, j) {
     for (var n = 0; n < rows; n++) {
         var row = '';
