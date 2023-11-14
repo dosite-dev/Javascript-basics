@@ -1,3 +1,4 @@
+/*function that recieves an array and returns the smallest number from that array*/
 function MaxValue(arr) {
     var maxValue = arr[0];
 
