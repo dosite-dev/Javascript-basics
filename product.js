@@ -3,5 +3,5 @@ example :2,3*/
 function product(a,b){
     return a*b;
   }
-  var result=product(9,9);
+  var result=product(2,3);
   console.log(result);
