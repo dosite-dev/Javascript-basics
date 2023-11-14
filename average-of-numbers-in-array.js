@@ -1,3 +1,7 @@
+/*Create a function that receives an array of numbers and returns the average of the numbers
+*/ 
+
+
 function calculateAverage(arr) {
     var sum = 0;
 

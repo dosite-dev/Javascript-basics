@@ -1,3 +1,9 @@
+
+/* Create a function that combines two arrays into one single array. 
+	Use the following arrays:
+	arrange = [a,b,c,d]
+	array to = [e,f,g]
+*/
 function combineArrays(arrayOne, arrayTwo) {
     // Use the concat method to combine the arrays
     var combinedArray = arrayOne.concat(arrayTwo);
