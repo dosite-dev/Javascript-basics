@@ -5,7 +5,7 @@
 1 0 0 0  
  */
 
-function patternSquare(a){
+function patternSquare(a,b){
     for( i=a; i>=0; i--){
         console.log('1 '.repeat(i)+('0 ' .repeat(a-i)))
     }
