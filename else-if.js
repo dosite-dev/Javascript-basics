@@ -6,23 +6,21 @@ Bellow are classifications according to specific conditions:
     COMMITMENT: 		20 - 45
     LEGACY:			46 - Above
  */
-    function ag(a){
-        var age;
-    if (age >= 0 || age <= 12) {
-            return "MIMICRY";
-      
-    }
-    else if ( age >= 13 || age <= 19) {
-        return "SELF-DISCOVERY";
-    } 
-    else if (age >= 20 || age >=45) {
-        return "COMMITMENT",age;
+    function ag(age){
         
-    }
-    else {
-        return "LEGACY";
-    }
-    
-    }
-    var age;
-    console.log (ag(45));
+        if(age >= 0 && age <= 12){
+           console.log("MIMICRY");
+        }
+        else if(age >=13 && age <= 19){
+            console.log("SELF-DISCOVERY");
+        }
+        else if(age >=20 && age<=45){
+            console.log("COMMITMENT");
+        }
+        else if (age >=46){
+            console.log("LEGACY");
+        }
+        
+        }
+        
+        ag(4);
